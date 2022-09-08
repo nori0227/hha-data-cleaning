@@ -24,9 +24,7 @@ list(df)
 """Step 5. clean strings that might exist within each column"""
 
 strings_columns = df.select_dtypes(object).columns # Assign all string data type to variable strings_columns
-
 df[strings_columns] = df[strings_columns].apply(lambda x: x.str.replace(' ', '_')) # replace all whitespace in strings with an underscore
-
 df[strings_columns] = df[strings_columns].apply(lambda x: x.str.replace('[^A-Za-z0-9]+', '_')) ## regex #### remove all special characters and whitespace ' ' from column names
 list(df[strings_columns])
 

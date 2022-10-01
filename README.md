@@ -1,11 +1,11 @@
 # hha-data-cleaning
 HHA-507 Assignment#2
 
-#Downloaded published dataset from healthdata.gov called “School Learning Modalities” - https://healthdata.gov/National/School-Learning-Modalities/aitj-yx37
+# Downloaded published dataset from healthdata.gov called “School Learning Modalities” - https://healthdata.gov/National/School-Learning-Modalities/aitj-yx37
 
-#Placed thte .csv file in the sub-folder dataset
+#Place thte .csv file in the sub-folder dataset
 
-#Created a Cleaning.py script 
+#Create a Cleaning.py script 
 
 #imported import pandas as pd
 import datetime as dt
@@ -28,6 +28,6 @@ import numpy as np
 
 #removed duplicate rows
 
-#assessed missiingness
+#assessed missingness
 
 #created a new column called modality_inperson that contained a binary value of true and false. The function took over the old column "Learning_Modality" and recoded the value for a specific row to true, if the learning modality value is ‘in-person’, and recodes it to false if the values either ‘remote’ or ‘hybrid’ 

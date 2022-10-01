@@ -1,6 +1,8 @@
 # hha-data-cleaning
 HHA-507 Assignment#2
 
+#.py script is in the Script folder
+
 # Downloaded published dataset from healthdata.gov called “School Learning Modalities” - https://healthdata.gov/National/School-Learning-Modalities/aitj-yx37
 
 #Place thte .csv file in the sub-folder dataset
